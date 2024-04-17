@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    font-family: Bitte,arial;
+    font-size: 16px;
+    padding-top: 130px;
+    background-color: #CCC;
+}
+
+header {
+
+    width: 100%;
+    background: #2E4053;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    transition: all .5s;
+    
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+.banner img  {
+    width: 100%;
+}
+
+main {
+    width: 1000px ;
+    margin: auto;
+    
+}
+
+main h1 {
+    text-align: center;
+    
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+   
+    
+}
+
+.grid .coluna img {
+    width: 100%;
+    text-align: center;
+    
+
+}
+
+.grid .coluna {
+    margin: 5px;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+   
+}
+
+.grid .coluna , .footer p{
+    text-align: center;
+}
+
+
+    
+main h1 {
+    padding: 12px;
+    margin-top: 4px;
+}
+
+header a img {
+    width: 150px;
+
+}
+.centro {
+    text-align: center;
+    padding-top: 30px;
+   
+    
+}
+
+.btn {
+    background: #2E4053;
+    color: #FFF;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+  
+}
+
+.btn:hover{
+    background: black;
+
+}
+
+
+.grid-sobre .coluna-sobre img{
+    width: 350px;
+    
+}
+
+.menu-contatos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   flex-direction: column;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+}
+
+.menu-contatos h2 .centro{
+    padding-top: 20px;
+
+}
+
+.flex-2{
+    display: flex;
+}
+
+.flex-2 .coluna1{
+    width: 30%;
+}
+
+
+
+
+.flex-footer .midias a { 
+    text-decoration: none;
+    color: black;
+    line-height: 30px;
+    margin: 20px;
+    font-size: 20px;
+    
+
+}
+
+.footer .flex-footer img{
+    width: 150px;
+    
+}
+
+.footer {
+    padding-top: 50px;
+    background-color: #F1F1F1;
+    padding: 15px 0;
+    
+}
+.flex-footer {
+    width: 90%;
+    text-align: center;
+}
+
+.flex-col p {
+    line-height: 50px;
+}
+
+.flex-footer{
+    display: flex;
+    /*quebrar colunas em linhas*/
+    flex-wrap: wrap;
+    /*centralizar as colunas*/
+    justify-content: center;
+}
+
+.buttom {
+    margin-top: 10px;
+    padding: 10px;
+    
+}
